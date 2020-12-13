@@ -1,11 +1,15 @@
+//Função do algoritmo calcular a media aritmetica
+//Autora: Marlene Sedano
+
 programa
 {
 	
 	funcao inicio()
 	{
+	//Variaveis
 		real n1, n2, n3, n4, media
 		cadeia aluno
-
+	//Entrada de Dados
 		escreva("Digite o nome do aluno: ")
 		leia(aluno)
 
@@ -17,10 +21,18 @@ programa
 		leia(n3)	
 		escreva("Digite a nota 4: ")
 		leia(n4)	
-
+	//Calculo de Dados
 		media = (n1 + n2 + n3 + n4) / 4
 
-		escreva("O aluno(a): " + aluno + "  obteve a media de: " + media)
+	//Verifica se a media é maior que 7
+		se(media >= 7){
+			escreva("\nParabens voce foi aprovado!!")
+		}
+		
+	//Verifica se a media é menor que 7
+		senao{
+			escreva("Voce foi reprovado")
+		}
 	}
 }
 /* $$$ Portugol Studio $$$ 
@@ -28,7 +40,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 400; 
+ * @POSICAO-CURSOR = 609; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
