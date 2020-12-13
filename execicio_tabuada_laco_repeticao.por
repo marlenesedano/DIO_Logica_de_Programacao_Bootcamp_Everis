@@ -5,10 +5,13 @@ programa
 	{
 		inteiro contador, limite, resultado, tabuada
 		contador = 0
-		limite = 10
+		
 
 		escreva("Informe a tabuada de qual numero que deseja conferir: ")
 		leia(tabuada)
+
+		escreva("\nQual é o limite que deseja que a tabuada execute: ")
+		leia(limite)
 
 		faca{
 			resultado = tabuada * contador
@@ -22,7 +25,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 361; 
+ * @POSICAO-CURSOR = 102; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
