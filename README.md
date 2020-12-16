@@ -1,1 +1,1 @@
-# logica_de_programcao_Bootstrap_Everis_DIO
+Curso de Lógica de programação ofertado pelo Digital Innovation One, no bootcamp da Everis
